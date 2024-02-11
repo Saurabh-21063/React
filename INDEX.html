@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="INDEX.css" />
+  </head>
+  <body>
+    <h1>hello top html</h1>
+    <div id="root">
+      <!--  these all heading in the div is replaced by the react rander as it loads loads the App.js file
+      you can see the output for a while queckly changes on the web screen   -->
+      <h1>Hello Html World!</h1>
+      <h1>Hello Html World!</h1>
+      <h1>Hello Html World!</h1>
+      <!--  HELLO WORLD USING HTML -->
+    </div>
+    <h1>hello bottom html</h1>
+
+    <script>
+      // HELLO WORLD USING JAVASCRIPT
+      // const heading = document.createElement("h1");
+      // heading.innerHTML = "Hello JavaScript World!";
+      // const root = document.getElementById("root");
+      // root.appendChild(heading);
+    </script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- <script>
+      const heading = React.createElement("h1", {}, "hello React World!");
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(heading);
+    </script> -->
+
+    <script src="./App.js"></script>
+  </body>
+</html>
